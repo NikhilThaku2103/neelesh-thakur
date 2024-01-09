@@ -1,59 +1,547 @@
-body{
- font-family: Arial, Helvetica, sans-serif;
- margin: 0;
- padding: 0;
-}
-.App{
-  text-align: left;
-}
-header{
-  background-color: aqua;
-  color: white;
-  padding-left: 20px;
-}
-.profile-image-container{
-  margin-bottom: 20px;
-}
-.profile-image{
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  object-position: cover;
-}
-header h1{
-  margin: 0;
-}
-header{
-  margin: 10px 0 0;
-}
-nav{
-  background-color: brown;
-  padding: 10px;
-}
-nav ul{
-  list-style-type: none;
+/* src/App.css */
+body {
+  font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
 }
-nav li{
-  display: inline;
-  margin-right: 20px;
+
+.app {
+  text-align: center;
 }
-nav a{
+
+.navbar {
+  background-color: #333;
+  padding: 1em;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 1em;
+}
+
+.navbar a {
   text-decoration: none;
   color: white;
   font-weight: bold;
 }
-section{
-  margin: 20px 0;
-  padding: 20px;
-}
-h2{
-  color: rgb(47, 11, 81);
-}
-p{
-  color: #090808;
-}
-@media screen and (max-width: 600px){
 
+.section {
+  padding: 2em;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-image img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.about-text {
+  max-width: 60%;
+}
+
+/* Add more styles as needed */
+/* src/App.css */
+
+/* ... (your existing styles) */
+
+/* Navbar Animation */
+.navbar {
+  background-color: #333;
+  padding: 1em;
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.navbar:hover {
+  background-color: #555; /* Change to a darker color on hover */
+}
+
+/* Component Hover Effect */
+.section:hover {
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.8); /* Red glow effect on hover */
+}
+
+/* ... (your existing styles) */
+#home {
+  background-color: #CFD4D8;
+}
+
+.section#home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 4em;
+}
+
+.home-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.home-text {
+  max-width: 60%;
+  text-align: left;
+}
+
+.home-image img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* ... (your existing styles) */
+/* src/App.css */
+
+/* ... (your existing styles) */
+
+/* Home Component Styles */
+/* src/App.css */
+
+/* ... (your existing styles) */
+
+/* Home Component Styles */
+/* src/App.css */
+
+/* ... (your existing styles) */
+
+/* Home Component Styles */
+/* src/App.css */
+
+/* ... (your existing styles) */
+
+/* Home Component Styles */
+/* src/App.css */
+
+/* ... (your existing styles) */
+
+/* Home Component Styles */
+#home {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #050202;
+  text-align: left;
+  height: 100vh; /* Set the height to fill the viewport */
+}
+
+.section#home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 4em;
+}
+
+.home-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.home-image {
+  width: 300px; /* Increase the size of the round frame */
+  height: 300px; /* Increase the size of the round frame */
+  overflow: hidden;
+  border: 4px solid #fff; /* Border added for a clean look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.home-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Maintain aspect ratio and cover the frame */
+}
+
+.home-text {
+  max-width: 60%;
+  text-align: left;
+}
+
+/* src/App.css */
+
+/* ... (your existing styles) */
+
+/* About Component Styles */
+#about {
+  background-color: #f5f5f5; /* Set a background color for the about section */
+}
+
+.section#about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 4em;
+  height: 100vh; /* Set the height to fill the viewport */
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align items vertically in the center */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4em;
+}
+
+.about-image img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+  max-width: 60%;
+  text-align: left;
+}
+
+/* ... (your existing styles) */
+
+/* ... (your existing styles) */
+
+/* ... (your existing styles) */
+
+
+/* ... (your existing styles) */
+
+
+/* ... (your existing styles) */
+/* src/App.css */
+
+/* ... (your existing styles) */
+
+/* About Component Styles */
+#about {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #232422; /* Set the text color to a suitable contrast color */
+}
+
+.section#about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 4em;
+  height: 100vh; /* Set the height to fill the viewport */
+  /* Adjust other styles as needed for spacing, padding, etc. */
+}
+
+.about-content {
+  /* Adjust other styles as needed for layout and positioning */
+}
+
+.about-image img {
+  /* Adjust styles for the about image as needed */
+}
+
+/* ... (your existing styles) */
+
+/* src/App.css */
+
+/* ... (your existing styles) */
+
+/* Contact Component Styles */
+#contact {
+  background-image: url("https://images.unsplash.com/photo-1487700160041-babef9c3cb55?q=80&w=2052&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff; /* Set the text color to a suitable contrast color */
+}
+
+.section#contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 4em;
+  height: 100vh; /* Set the height to fill the viewport */
+  /* Adjust other styles as needed for spacing, padding, etc. */
+}
+
+/* ... (your existing styles) */
+/* Add these styles to your existing CSS */
+
+/* About Component Styles */
+#about {
+  background-color: #f5f5f5; /* Set a background color for the about section */
+}
+
+.section#about {
+  /* Add styles for the about section as needed */
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align items vertically in the center */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4em;
+}
+
+.about-image img {
+  align-self: auto;
+  max-width: 30%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+  max-width: 60%;
+  text-align: left;
+}
+
+/* Add more styles as needed */
+/* src/App.css */
+
+/* ... (your existing styles) */
+
+/* Contact Component Styles */
+#contact {
+  background-image: url("https://images.unsplash.com/photo-1487700160041-babef9c3cb55?q=80&w=2052&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #c5a7a7; /* Set the text color to a suitable contrast color */
+}
+
+.section#contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 4em;
+  height: 100vh; /* Set the height to fill the viewport */
+  /* Adjust other styles as needed for spacing, padding, etc. */
+}
+
+.contact-content {
+  max-width: 600px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  color: #c5a7a7;
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+/* ... (your existing styles) */
+/* src/App.css */
+
+/* ... (your existing styles) */
+
+/* Contact Component Styles */
+/* src/App.css */
+
+/* ... (your existing styles) */
+
+/* Contact Component Styles */
+#contact {
+  background-image: url("https://images.unsplash.com/photo-1487700160041-babef9c3cb55?q=80&w=2052&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff; /* Set the text color to a suitable contrast color */
+  position: relative; /* Set position to relative for child positioning */
+}
+
+.section#contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 4em;
+  height: 100vh; /* Set the height to fill the viewport */
+  position: relative; /* Set position to relative for child positioning */
+  z-index: 1; /* Set a higher z-index to appear above the background */
+}
+
+.contact-content {
+  max-width: 600px;
+  text-align: center;
+  position: relative; /* Set position to relative for child positioning */
+  z-index: 2; /* Set a higher z-index to appear above the background */
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent opaque background */
+  padding: 30px; /* Add some padding for readability */
+  border-radius: 8px; /* Add rounded corners for style */
+}
+
+.contact-details {
+  margin-bottom: 12px;
+}
+
+.contact-details p {
+  margin: 12px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+label {
+  margin-bottom: 6px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #555;
+}
+/* src/App.css */
+
+/* ... (your existing styles) */
+
+/* Navbar Styles */
+.navbar {
+  background-color: #333;
+  padding: 1em;
+}
+
+/* ... (your existing styles) */
+
+/* Home Component Styles */
+#home {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #050202;
+  text-align: left;
+  height: 100vh;
+}
+
+.section#home {
+  padding: 4em;
+}
+
+.home-content {
+  flex-direction: column;
+  text-align: center;
+}
+
+.home-image {
+  width: 200px; /* Adjust image size for smaller screens */
+  height: 200px; /* Adjust image size for smaller screens */
+}
+
+.home-text {
+  max-width: 100%;
+}
+
+/* ... (your existing styles) */
+
+/* About Component Styles */
+/* About Component Styles */
+/* About Component Styles */
+#about {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #2f332c;
+}
+
+.section#about {
+  padding: 1em;
+}
+
+.about-content {
+  flex-direction: column;
+  text-align: center;
+}
+
+.about-image {
+  max-width: 80%; /* Reduced image size by 40 percent */
+  margin-top: 20px;
+}
+
+.about-image img {
+  width: 100%; /* Ensure the image takes full width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.about-text {
+  max-width: 100%;
+  font-size: 12px; /* Further reduce font size for smaller screens */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar li {
+    display: block;
+    margin-bottom: 1em;
+  }
+
+  .home-content,
+  .about-content,
+  .contact-content {
+    padding: 1em;
+  }
+
+  .home-image,
+  .about-image {
+    max-width: 100%; /* Adjust image size for smaller screens */
+    height: auto; /* Adjust image size for smaller screens */
+  }
+
+  .home-text,
+  .about-text {
+    max-width: 100%;
+  }
 }
